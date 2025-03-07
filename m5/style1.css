@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-font {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.section-1{
+    background: linear-gradient(0.00deg, rgb(9, 9, 9) 2.884%,rgba(16, 16, 16, 0) 101.034%),url("assets/hero-bg.png");
+    height: 919px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    }
+    .section-1 .div-content{
+        width: 1023px;
+        height: 215px;
+        /* margin-left: auto;
+        margin-right: auto; */
+        }
+        .section-1 .div-content h1{
+            opacity: 0.8;
+            color: rgb(255, 255, 255);
+            font-family: Work Sans;
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 38px;
+            letter-spacing: 0%;
+            text-align: center;
+            margin-bottom: 24px;
+        }
+        .section-1 .div-content .first-sec-des{
+            opacity: 0.7;
+            color: rgb(255, 255, 255);
+            font-family: Work Sans;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 28px;
+            letter-spacing: 0%;
+            text-align: center;
+            margin-bottom: 32px;
+            
+            Font-weight: 500px;
+            Font-size: 18px;
+            height: 28px
+            
+            
+        }
+        .btn1-div{
+           text-align: center;
+           margin: 32px 32px;
+        }
+        .btn1{
+            padding: 21px 32px 21px 32px;
+            border-radius: 8px;
+            background: rgb(82, 195, 3);
+            border: none;
+
+            color: rgb(255, 255, 255);
+            font-family: Work Sans;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 23px;
+            letter-spacing: 0%;
+            text-align: center;        
+            }
+ /* section-2 */
+ .section-2{
+    margin: 255px 100px 255px 100px;
+ }
+ .container-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .sub-title-1{
+    color:rgb(58, 56, 56);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+ }
+ h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: rgb(45, 46, 46);
+ }
+ h3{
+    color: rgb(16, 16, 16);
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    text-align: center;
+ }
+.container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    margin: 48px 24px 64px 24px;
+}
+.produce-cn{
+    align-items: center;
+    justify-content: center;
+    margin: 32px 111px 24px 111px;
+}
+.product-name{
+    font-size: 32px;
+    background-color: rgba(82, 195, 3, 0.15);
+    padding: 14px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+.description{
+    color: rgb(16, 16, 16);
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+.pic{
+    width: 100%;
+}
+/* section3 */
+.section-3{
+    margin: 100px;
+    display: flex;
+    box-shadow: 1px 1px 18px 1px black;
+}
+.control{
+    display: flex;
+    flex-direction: column;
+}
+.container-3{
+    margin: 136px 53px 32px 77px;
+    justify-self: center;
+    align-items: center;
+}
+.des-1{
+    font-size: 32px;
+    font-weight: 500px;
+    color: rgb(16, 16, 16);
+    margin: 24px 124.5px 48px 124.5px;
+    text-align: center;
+}
+.produce-1{
+    text-align: center;
+    Font-weight: 700;
+    Font-size: 36px;
+    color: rgb(92, 90, 90);
+    margin-top: 48px;
+}
+.pic-con{
+    text-align: center;
+    margin-top: 32px;
+
+}
+.pic-4{
+ height: 40px;
+ width: 40px;
+ margin: 10px;
+}
+/* section4 */
+.section-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-section-4{
+    height: 651px;
+    width: 424px;
+    box-shadow: 1px 1px 5px rgb(192, 192, 243);
+    }
+    /* footer */
+.footer{
+    margin: 271px 100px;
+    height: 671px;
+}
+.footer-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.des-end{
+    Font-weight: 500;
+    Font-size: 30px;
+    text-align: center;
+    margin-top: 24px;
+}

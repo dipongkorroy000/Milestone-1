@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border: 2px dotted palevioletred;
+            width: 700px;
+        }
+        .burger{
+            /* position: relative;
+            left: 200px;
+            bottom: 150px;; */
+            /* position: absolute;
+            left: 150px; */
+            /* position: sticky;
+            top: 0px; */
+            position: fixed;
+            top: 100px;
+            left: 200px;
+        }
+        .container{
+            position: relative;
+            border: 3px solid rebeccapurple;
+            width: 800px;
+        }
+        .dummy{
+            border: 1px solid tomato;
+            width: 700px;
+            height: 300px;
+        }
+        .another{
+            border: 1px solid blue;
+            width: 800px;
+        }
+    </style>
+</head>
+<body>
+    <ol>
+        <li>Static</li>
+        <li>Relative: current position thaka koto tuku soray jabay and will not leave thr current spot </li>
+        <li>Absolute:will lose it's own position and will move based on the root </li>
+        <li>Fixed</li>
+        <li>Sticky</li>
+    </ol>
+    <div class="container">
+        <div class="box biriyani"><img src="assets/boy.svg" alt=""></div>
+        <div class="box burger"><img src="assets/ring.svg" alt=""></div>
+        <div class="box biriyani"><img src="assets/water.svg" alt=""></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+    </div>
+    <div class="another">
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+    </div>
+</body>
+</html>
